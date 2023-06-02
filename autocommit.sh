@@ -77,7 +77,7 @@ push_config(){
   git add .
   current_date=$(date +"%Y-%m-%d %T")
   git commit -m "Autocommit from $current_date" -m "$m1" -m "$m2" -m "$m3" -m "$m4"
-  git push origin $branch --force
+  git push origin $branch
 }
 
 grab_version
